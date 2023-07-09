@@ -1,0 +1,15 @@
+// 引入清除的默认样式
+@import './reset.scss' ;
+
+// 设置滚动条的样式
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  background-color: rgb(16, 20, 16);
+  border-radius: 10px;
+}
